@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS Tailwind Project Template</title>
 
-    
+
     <!-- Fav-Icon link -->
 
-    
+
     <!-- Google Font link-->
 
 
@@ -33,7 +33,37 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        primary: '#colorCodeHere',
+                        secondary: '#colorCodeHere',
+                        body: '#colorCodeHere',
+
+                        //using style:
+                        //text-className
+
+                        //like:
+                        //text-primary
+                        //bg-secondary
+
+
+                    },
+                    fontFamily: {
+                        Poppins: 'Poppins',
+
+                        //Poppins: ['Poppins', 'sans-serif'] // Array for proper usage
+
+                        // using style:
+                        //<body class="font-Poppins">
+                    },
+                    backgroundImage: {
+                        first_image: "url('yourImagePathHere')",
+                        second_image: "url('yourImagePathHere')",
+                        third_image: "url('yourImagePathHere')",
+
+                        //using style:
+                        //bg-className
+
+                        //like:
+                        //bg-first_image
                     }
                 }
             }
